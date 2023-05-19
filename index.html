@@ -25,14 +25,16 @@
                         <img src="images/login_user.png" alt="login_user" class="img-fluid login_user">
                     </div>
                     <div class="col-md-6">
-                        <form action="" method="post">
+                        <form action="" method="post" id="form-validation">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Adresse mail</label>
-                                <input type="email" class="form-control" id="email" name="email">
+                                <input type="email" class="form-control mb-2" id="email" name="email">
+                                <small id="valid-email"></small>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Mot de passe</label>
-                                <input type="password" class="form-control" id="password" name="password">
+                                <input type="password" class="form-control mb-2" id="password" name="password">
+                                <small id="valid-password"></small>
                             </div>
                             <div class="mb-3">
                                 <button class="btn btn-dark w-100">Se connecter</button>
@@ -46,6 +48,7 @@
             </div>
         </main>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

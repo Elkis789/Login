@@ -19,3 +19,11 @@ header p{
     letter-spacing: .3px;
     color: #454545;
 }
+
+#valid-email,
+#valid-password{
+    font-size: 12px;
+    letter-spacing: .3px;
+    color: red;
+    display: none;
+}
